@@ -1,7 +1,6 @@
-package com.geezylucas.springforgraphqlexample.entity;
+package com.rauldvlpr.springforgraphqlexample.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -15,15 +14,13 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Builder
-@Table("book")
-public class BookEntity {
+@Table("author")
+public class AuthorEntity {
 
     @Id
     private Integer id;
-    private String name;
-    @Column("page_count")
-    private int pageCount;
-    @Column("author_id")
-    private int authorId;
+    @Column("first_name")
+    private String firstName;
+    @Column("last_name")
+    private String lastName;
 }

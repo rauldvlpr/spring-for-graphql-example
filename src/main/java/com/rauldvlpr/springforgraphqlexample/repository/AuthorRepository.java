@@ -1,6 +1,6 @@
-package com.geezylucas.springforgraphqlexample.repository;
+package com.rauldvlpr.springforgraphqlexample.repository;
 
-import com.geezylucas.springforgraphqlexample.entity.AuthorEntity;
+import com.rauldvlpr.springforgraphqlexample.entity.AuthorEntity;
 import org.springframework.data.r2dbc.repository.R2dbcRepository;
 import org.springframework.stereotype.Repository;
 

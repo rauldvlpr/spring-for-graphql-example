@@ -1,4 +1,4 @@
-package com.geezylucas.springforgraphqlexample.dto;
+package com.rauldvlpr.springforgraphqlexample.dto;
 
 public record CreateBookDTO(String name, int pageCount, int authorId) {
 }

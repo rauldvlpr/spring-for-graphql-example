@@ -1,4 +1,4 @@
-package com.geezylucas.springforgraphqlexample.dto;
+package com.rauldvlpr.springforgraphqlexample.dto;
 
 import lombok.Builder;
 

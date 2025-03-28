@@ -1,10 +1,10 @@
-package com.geezylucas.springforgraphqlexample.service;
+package com.rauldvlpr.springforgraphqlexample.service;
 
-import com.geezylucas.springforgraphqlexample.dto.BookDTO;
-import com.geezylucas.springforgraphqlexample.dto.CreateBookDTO;
-import com.geezylucas.springforgraphqlexample.entity.BookEntity;
-import com.geezylucas.springforgraphqlexample.exception.NotFoundException;
-import com.geezylucas.springforgraphqlexample.repository.BookRepository;
+import com.rauldvlpr.springforgraphqlexample.dto.BookDTO;
+import com.rauldvlpr.springforgraphqlexample.dto.CreateBookDTO;
+import com.rauldvlpr.springforgraphqlexample.entity.BookEntity;
+import com.rauldvlpr.springforgraphqlexample.exception.NotFoundException;
+import com.rauldvlpr.springforgraphqlexample.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;

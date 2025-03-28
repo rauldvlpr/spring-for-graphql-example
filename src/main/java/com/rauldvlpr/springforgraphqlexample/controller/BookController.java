@@ -1,8 +1,8 @@
-package com.geezylucas.springforgraphqlexample.controller;
+package com.rauldvlpr.springforgraphqlexample.controller;
 
-import com.geezylucas.springforgraphqlexample.dto.BookDTO;
-import com.geezylucas.springforgraphqlexample.dto.CreateBookDTO;
-import com.geezylucas.springforgraphqlexample.service.BookService;
+import com.rauldvlpr.springforgraphqlexample.dto.BookDTO;
+import com.rauldvlpr.springforgraphqlexample.dto.CreateBookDTO;
+import com.rauldvlpr.springforgraphqlexample.service.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;

@@ -1,8 +1,8 @@
-package com.geezylucas.springforgraphqlexample.controller;
+package com.rauldvlpr.springforgraphqlexample.controller;
 
-import com.geezylucas.springforgraphqlexample.dto.AuthorDTO;
-import com.geezylucas.springforgraphqlexample.dto.BookDTO;
-import com.geezylucas.springforgraphqlexample.service.AuthorService;
+import com.rauldvlpr.springforgraphqlexample.dto.AuthorDTO;
+import com.rauldvlpr.springforgraphqlexample.dto.BookDTO;
+import com.rauldvlpr.springforgraphqlexample.service.AuthorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
 import org.springframework.stereotype.Controller;

@@ -1,8 +1,8 @@
-package com.geezylucas.springforgraphqlexample.service;
+package com.rauldvlpr.springforgraphqlexample.service;
 
-import com.geezylucas.springforgraphqlexample.dto.AuthorDTO;
-import com.geezylucas.springforgraphqlexample.exception.NotFoundException;
-import com.geezylucas.springforgraphqlexample.repository.AuthorRepository;
+import com.rauldvlpr.springforgraphqlexample.dto.AuthorDTO;
+import com.rauldvlpr.springforgraphqlexample.exception.NotFoundException;
+import com.rauldvlpr.springforgraphqlexample.repository.AuthorRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
